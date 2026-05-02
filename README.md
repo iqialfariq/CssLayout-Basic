@@ -1,4 +1,4 @@
-## Property dan Value CSS Layouting
+<img width="547" height="367" alt="image" src="https://github.com/user-attachments/assets/ee43bf5c-cea0-4785-a8ca-6af8f711bd11" />## Property dan Value CSS Layouting
 
 ## Dimensi
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web.  
@@ -91,3 +91,28 @@ margin: 10px 20px 30px;
 
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
+
+
+# 📘 Dokumentasi CSS Dasar
+
+## 🎨 Property: Border
+Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
+atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
+`solid`, `dashed`, `dotted`, `double`.
+
+---
+
+### 💡 Value Border
+Border memiliki 4 sisi:
+1. Top  
+2. Right  
+3. Bottom  
+4. Left  
+
+---
+
+### 🛠 Cara Menggunakan (Shorthand Border)
+
+```css
+/* Semua sisi sama */
+border: 2px solid black;
