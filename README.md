@@ -91,3 +91,21 @@ margin: 10px 20px 30px;
 
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
+
+## Property: Border
+
+**Border** digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas, atau memberi efek dekoratif.  
+Border memiliki beberapa gaya di antaranya:
+- **solid**
+- **dashed**
+- **dotted**
+- **double**
+
+---
+
+### 1. Border Top
+Menentukan garis batas di bagian atas elemen.
+```html
+<div style="border-top: 3px solid red; padding: 10px;">
+  Elemen dengan border atas merah
+</div>
