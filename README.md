@@ -278,6 +278,17 @@ clear: right;
 
 /* Elemen turun ke bawah, tidak berdampingan dengan float kiri maupun kanan */
 clear: both;
+
+/* nicolasgallagher */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
 ```
 
 ## 📍 Property: Position
