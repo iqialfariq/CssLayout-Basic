@@ -137,3 +137,220 @@ Padding memiliki 4 sisi:
 /* Semua sisi sama */
 padding: 10px;
 ```
+
+## 📐 Property: Box-Sizing
+Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`).  
+Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak.
+
+---
+
+### 💡 Value Box-Sizing
+Ada 3 value utama:
+
+1. **content-box**  
+   Default. `width` dan `height` hanya menghitung **content**. Padding dan border ditambahkan di luar ukuran elemen.  
+
+2. **border-box**  
+   `width` dan `height` menghitung **content + padding + border**. Lebih mudah untuk layout modern karena ukuran total elemen tetap konsisten.  
+
+3. **inherit**  
+   Elemen mewarisi nilai `box-sizing` dari parent‑nya.  
+
+---
+
+### 🛠 Cara Menggunakan
+
+```css
+/* Default */
+box-sizing: content-box;
+
+/* Lebih praktis untuk layout */
+box-sizing: border-box;
+
+/* Mewarisi dari parent */
+box-sizing: inherit;
+```
+
+## 🔄 CSS Reset
+**CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser,  
+sehingga tampilan website menjadi konsisten di semua browser.
+
+### 📜 Eric Meyer’s Reset (Klasik)
+```css
+/* Eric Meyer’s Reset CSS v2.0 (2011) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset untuk browser lama */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+```
+
+## 🪄 Property: Float
+Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya,  
+memungkinkan teks atau elemen lain mengalir di sekitarnya.  
+Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid.
+
+---
+
+### 💡 Value Float
+1. **none** → elemen tidak melayang, posisi default.  
+2. **left** → elemen melayang ke kiri container.  
+3. **right** → elemen melayang ke kanan container.  
+
+---
+
+### 🛠 Cara Menggunakan
+```css
+/* Elemen melayang ke kiri */
+float: left;
+
+/* Elemen melayang ke kanan */
+float: right;
+
+/* Default, tidak melayang */
+float: none;
+```
+
+## 🧹 Property: Clear
+Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**.  
+Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang.
+
+---
+
+### 💡 Value Clear
+1. **both** → elemen tidak boleh berada di samping elemen yang di-*float* kiri maupun kanan.  
+2. **left** → elemen tidak boleh berada di samping elemen yang di-*float* kiri.  
+3. **right** → elemen tidak boleh berada di samping elemen yang di-*float* kanan.  
+
+---
+
+### 🛠 Cara Menggunakan
+```css
+/* Elemen turun ke bawah, tidak berdampingan dengan float kiri */
+clear: left;
+
+/* Elemen turun ke bawah, tidak berdampingan dengan float kanan */
+clear: right;
+
+/* Elemen turun ke bawah, tidak berdampingan dengan float kiri maupun kanan */
+clear: both;
+```
+
+## 📍 Property: Position
+Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web.  
+Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport.
+
+---
+
+### 💡 Value Position
+1. **static**  
+   Elemen mengikuti alur normal dokumen. Tidak bisa digeser dengan `top/right/bottom/left`.
+
+2. **relative**  
+   Elemen tetap di alur normal, tapi bisa digeser relatif terhadap posisi aslinya.
+
+3. **absolute**  
+   Elemen keluar dari alur normal, diposisikan relatif terhadap ancestor terdekat yang punya posisi selain `static`.
+
+4. **fixed**  
+   Elemen diposisikan relatif terhadap viewport. Tidak bergerak saat halaman di-*scroll*.
+
+5. **sticky**  
+   Kombinasi relative + fixed. Elemen mengikuti alur normal, tapi akan “menempel” ke posisi tertentu saat di-*scroll*.
+
+---
+
+### 🛠 Cara Menggunakan
+```css
+/* Static */
+position: static;
+
+/* Relative */
+position: relative;
+top: 10px;
+left: 20px;
+
+/* Absolute */
+position: absolute;
+top: 50px;
+right: 30px;
+
+/* Fixed */
+position: fixed;
+bottom: 0;
+right: 0;
+
+/* Sticky */
+position: sticky;
+top: 0;
+```
+
+## 🗂 Property: Z-Index
+Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML.  
+Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain.
+
+---
+
+### 💡 Value Z-Index
+1. **Nilai positif (1 sampai 900)** → elemen berada di atas elemen lain dengan nilai lebih rendah.  
+2. **Nilai negatif (-1 sampai -900)** → elemen berada di bawah elemen lain dengan nilai lebih tinggi.  
+
+---
+
+### 🛠 Cara Menggunakan
+```css
+/* Default (auto) */
+position: relative;
+z-index: auto;
+
+/* Elemen di atas */
+position: relative;
+z-index: 10;
+
+/* Elemen di bawah */
+position: relative;
+z-index: -1;
