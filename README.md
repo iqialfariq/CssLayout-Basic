@@ -1,6 +1,11 @@
-## Property dan Value CSS Layouting
+# 💡 Penjelasan CSS Layouting 💡
+CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang **kompleks, responsif, dan fleksibel**. 
 
-## Dimensi
+---
+
+## 💫 Property dan Value CSS Layouting 💫
+
+## 📌 Dimensi 📌
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi,
   serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.  
   Dimensi dibagi menjadi 6 yaitu:  
@@ -53,7 +58,7 @@
      </div>
      ```
 
-## Box Model     
+## 📌 Box Model 📌     
 **Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Content** → isi utama elemen (teks/gambar).
 - **Padding** → ruang antara content dan border.
@@ -171,7 +176,7 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 
-## CSS Reset
+## CSS Reset 
 **CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser,  
 sehingga tampilan website menjadi konsisten di semua browser.
 
