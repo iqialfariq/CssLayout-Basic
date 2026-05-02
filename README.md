@@ -93,14 +93,14 @@ margin: 10px 20px 30px;
 margin: 10px 20px 30px 40px;
 ```
 
-## 🎨 Property: Border
+## Property: Border
 Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
 atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
 `solid`, `dashed`, `dotted`, `double`.
 
 ---
 
-### 💡 Value Border
+### Value Border
 Border memiliki 4 sisi:
 1. Top  
 2. Right  
@@ -109,20 +109,20 @@ Border memiliki 4 sisi:
 
 ---
 
-### 🛠 Cara Menggunakan (Shorthand Border)
+### Cara Menggunakan (Shorthand Border)
 
 ```css
 /* Semua sisi sama */
 border: 2px solid black;
 ```
 
-## 📦 Property: Padding
+## Property: Padding
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
 Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
 
 ---
 
-### 💡 Value Padding
+### Value Padding
 Padding memiliki 4 sisi:
 1. Top  
 2. Right  
@@ -131,20 +131,20 @@ Padding memiliki 4 sisi:
 
 ---
 
-### 🛠 Cara Menggunakan (Shorthand Padding)
+### Cara Menggunakan (Shorthand Padding)
 
 ```css
 /* Semua sisi sama */
 padding: 10px;
 ```
 
-## 📐 Property: Box-Sizing
+## Property: Box-Sizing
 Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`).  
 Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak.
 
 ---
 
-### 💡 Value Box-Sizing
+### Value Box-Sizing
 Ada 3 value utama:
 
 1. **content-box**  
@@ -158,7 +158,7 @@ Ada 3 value utama:
 
 ---
 
-### 🛠 Cara Menggunakan
+### Cara Menggunakan
 
 ```css
 /* Default */
@@ -171,11 +171,11 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 
-## 🔄 CSS Reset
+## CSS Reset
 **CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser,  
 sehingga tampilan website menjadi konsisten di semua browser.
 
-### 📜 Eric Meyer’s Reset (Klasik)
+### Eric Meyer’s Reset (Klasik)
 ```css
 /* Eric Meyer’s Reset CSS v2.0 (2011) */
 html, body, div, span, applet, object, iframe,
@@ -229,21 +229,21 @@ table {
 }
 ```
 
-## 🪄 Property: Float
+## Property: Float
 Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya,  
 memungkinkan teks atau elemen lain mengalir di sekitarnya.  
 Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid.
 
 ---
 
-### 💡 Value Float
+### Value Float
 1. **none** → elemen tidak melayang, posisi default.  
 2. **left** → elemen melayang ke kiri container.  
 3. **right** → elemen melayang ke kanan container.  
 
 ---
 
-### 🛠 Cara Menggunakan
+### Cara Menggunakan
 ```css
 /* Elemen melayang ke kiri */
 float: left;
@@ -255,20 +255,20 @@ float: right;
 float: none;
 ```
 
-## 🧹 Property: Clear
+## Property: Clear
 Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**.  
 Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang.
 
 ---
 
-### 💡 Value Clear
+### Value Clear
 1. **both** → elemen tidak boleh berada di samping elemen yang di-*float* kiri maupun kanan.  
 2. **left** → elemen tidak boleh berada di samping elemen yang di-*float* kiri.  
 3. **right** → elemen tidak boleh berada di samping elemen yang di-*float* kanan.  
 
 ---
 
-### 🛠 Cara Menggunakan
+### Cara Menggunakan
 ```css
 /* Elemen turun ke bawah, tidak berdampingan dengan float kiri */
 clear: left;
@@ -291,13 +291,13 @@ clear: both;
 }
 ```
 
-## 📍 Property: Position
+## Property: Position
 Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web.  
 Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport.
 
 ---
 
-### 💡 Value Position
+### Value Position
 1. **static**  
    Elemen mengikuti alur normal dokumen. Tidak bisa digeser dengan `top/right/bottom/left`.
 
@@ -315,7 +315,7 @@ Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk m
 
 ---
 
-### 🛠 Cara Menggunakan
+### Cara Menggunakan
 ```css
 /* Static */
 position: static;
@@ -340,19 +340,19 @@ position: sticky;
 top: 0;
 ```
 
-## 🗂 Property: Z-Index
+## Property: Z-Index
 Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML.  
 Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain.
 
 ---
 
-### 💡 Value Z-Index
+### Value Z-Index
 1. **Nilai positif (1 sampai 900)** → elemen berada di atas elemen lain dengan nilai lebih rendah.  
 2. **Nilai negatif (-1 sampai -900)** → elemen berada di bawah elemen lain dengan nilai lebih tinggi.  
 
 ---
 
-### 🛠 Cara Menggunakan
+### Cara Menggunakan
 ```css
 /* Default (auto) */
 position: relative;
