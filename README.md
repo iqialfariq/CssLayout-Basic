@@ -89,8 +89,7 @@ margin: 10px 20px;
 /* Atas | Kiri-kanan | Bawah */
 margin: 10px 20px 30px;
 
-/* Atas | Kanan | Bawah | Kiri */
-margin: 10px 20px 30px 40px;
+---
 
 ## Property: Border
 
@@ -103,9 +102,14 @@ Border memiliki beberapa gaya di antaranya:
 
 ---
 
-### 1. Border Top
-Menentukan garis batas di bagian atas elemen.
+### Border Top  
+
 ```html
 <div style="border-top: 3px solid red; padding: 10px;">
   Elemen dengan border atas merah
 </div>
+
+
+
+/* Atas | Kanan | Bawah | Kiri */
+margin: 10px 20px 30px 40px;
