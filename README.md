@@ -1,4 +1,4 @@
-<img width="547" height="367" alt="image" src="https://github.com/user-attachments/assets/ee43bf5c-cea0-4785-a8ca-6af8f711bd11" />## Property dan Value CSS Layouting
+## Property dan Value CSS Layouting
 
 ## Dimensi
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web.  
