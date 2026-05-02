@@ -1,8 +1,7 @@
 ## Property dan Value CSS Layouting
 
 ## Dimensi
-  Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web.  
-  Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.  
+  Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah       elemen sehingga layout lebih terkontrol dan responsif.  
   Dimensi dibagi menjadi 6 yaitu:  
 
   1. **Width**  
