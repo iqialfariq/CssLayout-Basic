@@ -91,21 +91,3 @@ margin: 10px 20px 30px;
 
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
-
-# 📘 Dokumentasi CSS Dasar
-
-## 🧱 Shorthand Margin
-Penulisan shorthand mengikuti urutan: **top → right → bottom → left**
-
-```css
-/* Semua sisi sama */
-margin: 10px;
-
-/* Atas-bawah | Kiri-kanan */
-margin: 10px 20px;
-
-/* Atas | Kiri-kanan | Bawah */
-margin: 10px 20px 30px;
-
-/* Atas | Kanan | Bawah | Kiri */
-margin: 10px 20px 30px 40px;
