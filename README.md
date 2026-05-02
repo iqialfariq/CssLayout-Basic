@@ -92,27 +92,20 @@ margin: 10px 20px 30px;
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
 
-
 # 📘 Dokumentasi CSS Dasar
 
-## 🎨 Property: Border
-Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
-atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
-`solid`, `dashed`, `dotted`, `double`.
-
----
-
-### 💡 Value Border
-Border memiliki 4 sisi:
-1. Top  
-2. Right  
-3. Bottom  
-4. Left  
-
----
-
-### 🛠 Cara Menggunakan (Shorthand Border)
+## 🧱 Shorthand Margin
+Penulisan shorthand mengikuti urutan: **top → right → bottom → left**
 
 ```css
 /* Semua sisi sama */
-border: 2px solid black;
+margin: 10px;
+
+/* Atas-bawah | Kiri-kanan */
+margin: 10px 20px;
+
+/* Atas | Kiri-kanan | Bawah */
+margin: 10px 20px 30px;
+
+/* Atas | Kanan | Bawah | Kiri */
+margin: 10px 20px 30px 40px;
