@@ -10,7 +10,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
   serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.  
   Dimensi dibagi menjadi 6 yaitu:  
 
-  1. **Width**  
+  1. **Width**📎  
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
      ```html
      <div style="width: 200px; background: lightblue;">
@@ -18,7 +18,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-  2. **Height**  
+  2. **Height**📎  
      Menentukan tinggi elemen. Sama seperti width, bisa absolut atau relatif.  
      ```html
      <div style="height: 100px; background: lightgreen;">
@@ -26,7 +26,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-  3. **Min-Width**  
+  3. **Min-Width**📎  
      Menentukan lebar minimum elemen agar tidak mengecil terlalu kecil.  
      ```html
      <div style="min-width: 150px; background: pink;">
@@ -34,7 +34,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-  4. **Max-Width**  
+  4. **Max-Width**📎  
      Menentukan lebar maksimum elemen agar tidak melebar berlebihan.  
      ```html
      <div style="max-width: 300px; background: orange;">
@@ -42,7 +42,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-  5. **Min-Height**  
+  5. **Min-Height**📎  
      Menentukan tinggi minimum elemen.  
      ```html
      <div style="min-height: 80px; background: violet;">
@@ -50,7 +50,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-  6. **Max-Height**  
+  6. **Max-Height**📎  
      Menentukan tinggi maksimum elemen.  
      ```html
      <div style="max-height: 150px; background: yellow;">
@@ -67,7 +67,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 
 ---
 
-## Property: Margin
+## Property: Margin📎
 
 **Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
 Margin bisa bernilai positif maupun negatif (`-`).
@@ -98,7 +98,7 @@ margin: 10px 20px 30px;
 margin: 10px 20px 30px 40px;
 ```
 
-## Property: Border
+## Property: Border📎
 Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
 atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
 `solid`, `dashed`, `dotted`, `double`.
@@ -121,7 +121,7 @@ Border memiliki 4 sisi:
 border: 2px solid black;
 ```
 
-## Property: Padding
+## Property: Padding📎
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
 Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
 
@@ -143,7 +143,7 @@ Padding memiliki 4 sisi:
 padding: 10px;
 ```
 
-## Property: Box-Sizing
+## Property: Box-Sizing📎
 Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`).  
 Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak.
 
@@ -176,11 +176,11 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 
-## CSS Reset 
+## 📌 CSS Reset 📌
 **CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser,  
 sehingga tampilan website menjadi konsisten di semua browser.
 
-### Eric Meyer’s Reset (Klasik)
+### Eric Meyer’s Reset (Klasik)📎
 ```css
 /* Eric Meyer’s Reset CSS v2.0 (2011) */
 html, body, div, span, applet, object, iframe,
@@ -234,7 +234,7 @@ table {
 }
 ```
 
-## Property: Float
+## 📌 Property: Float 📌
 Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya,  
 memungkinkan teks atau elemen lain mengalir di sekitarnya.  
 Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid.
@@ -260,7 +260,7 @@ float: right;
 float: none;
 ```
 
-## Property: Clear
+## 📌 Property: Clear 📌
 Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**.  
 Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang.
 
@@ -284,7 +284,7 @@ clear: right;
 /* Elemen turun ke bawah, tidak berdampingan dengan float kiri maupun kanan */
 clear: both;
 
-/* nicolasgallagher */
+/* nicolasgallagher */📎
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -296,7 +296,7 @@ clear: both;
 }
 ```
 
-## Property: Position
+## 📌 Property: Position 📌
 Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web.  
 Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport.
 
@@ -345,7 +345,7 @@ position: sticky;
 top: 0;
 ```
 
-## Property: Z-Index
+## 📌 Property: Z-Index 📌
 Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML.  
 Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain.
 
