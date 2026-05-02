@@ -143,7 +143,7 @@ Padding memiliki 4 sisi:
 padding: 10px;
 ```
 
-## Property: Box-Sizing📎
+## 📌 Property: Box-Sizing 📌
 Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`).  
 Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak.
 
