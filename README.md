@@ -64,7 +64,7 @@
 
 ---
 
-  1. **Margin**  
+1. **Margin**  
 
 **Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
 Margin bisa bernilai positif maupun negatif (`-`).
