@@ -52,3 +52,45 @@
        Elemen dengan max-height 150px
      </div>
      ```
+
+- **Box Model**  
+
+**Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
+
+- **Content** → isi utama elemen (teks/gambar).
+- **Padding** → ruang antara content dan border.
+- **Border** → garis pembatas di sekitar elemen.
+- **Margin** → ruang kosong di luar elemen, memisahkan elemen dengan elemen lain.
+
+---
+
+  1. **Margin**  
+
+**Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
+Margin bisa bernilai positif maupun negatif (`-`).
+
+### Value Margin
+Margin memiliki 4 sisi:
+1. **Top**  
+2. **Right**  
+3. **Bottom**  
+4. **Left**
+
+---
+
+### Cara Menggunakan Margin
+
+- **Shorthand Margin** → ditulis dengan urutan: **top, right, bottom, left**
+
+```css
+/* Semua sisi sama */
+margin: 10px;
+
+/* Atas-bawah | Kiri-kanan */
+margin: 10px 20px;
+
+/* Atas | Kiri-kanan | Bawah */
+margin: 10px 20px 30px;
+
+/* Atas | Kanan | Bawah | Kiri */
+margin: 10px 20px 30px 40px;
