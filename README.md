@@ -52,7 +52,6 @@
        Elemen dengan max-height 150px
      </div>
      ```
-
 - **Box Model**  
 
 **Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
