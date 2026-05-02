@@ -1,0 +1,25 @@
+.px {
+  width: 50%;
+  height: 200px;
+  background-color: salmon;
+  text-align: center;
+  line-height: 200px;
+}
+
+.satu {
+  width: 50%;
+  height: 200px;
+  background-color: darkorchid;
+}
+
+.satu .dua {
+  width: 120%;
+  background-color: pink;
+}
+
+.tiga {
+  max-width: 500px;
+  text-align: justify;
+  background-color: brown;
+  color: white;
+}

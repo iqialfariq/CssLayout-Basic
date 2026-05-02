@@ -1,0 +1,35 @@
+.visible {
+  width: 250px;
+  height: 250px;
+  background-color: darkcyan;
+  color: white;
+  overflow: visible;
+  display: inline-block;
+}
+
+.auto {
+  width: 250px;
+  height: 250px;
+  background-color: salmon;
+  color: white;
+  overflow: auto;
+  display: inline-block;
+}
+
+.hidden {
+  width: 250px;
+  height: 250px;
+  background-color: darkgreen;
+  color: white;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.scroll {
+  width: 250px;
+  height: 250px;
+  background-color: darkorchid;
+  color: white;
+  overflow: scroll;
+  display: inline-block;
+}

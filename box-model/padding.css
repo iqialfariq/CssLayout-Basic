@@ -1,0 +1,33 @@
+.teks {
+  width: 200px;
+  height: 200px;
+  background-color: salmon;
+  margin: 40px auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  border: dotted;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.coba {
+  width: 200px;
+  height: 200px;
+  background-color: darkorange;
+  margin: 40px auto;
+  padding: 10px 20px 10px;
+  border: double;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 500px;
+  text-align: justify;
+  background-color: darkcyan;
+  margin: auto;
+  padding: 20px;
+  border: 4px dashed salmon;
+  box-sizing: border-box;
+}

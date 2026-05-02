@@ -1,0 +1,20 @@
+main .block1 {
+  background-color: salmon;
+  width: 200px;
+  height: auto;
+}
+
+main .block2 {
+  background-color: darkgoldenrod;
+  width: 200px;
+  height: auto;
+}
+
+main a {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  display: inline-block;
+  color: white;
+  list-style: none;
+}
