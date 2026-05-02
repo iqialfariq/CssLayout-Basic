@@ -62,10 +62,10 @@
 
 ---
 
-1. **Margin**  
-
-**Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
-Margin bisa bernilai positif maupun negatif (`-`).
+  1. **Margin**  
+     **Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
+Margin bisa bernilai positif maupun negatif (`-`)..  
+     ```html   
 
 ### Value Margin
 Margin memiliki 4 sisi:
