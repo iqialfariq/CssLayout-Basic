@@ -92,5 +92,48 @@ margin: 10px 20px 30px;
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
 ```
+
+## 🎨 Property: Border
+Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
+atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
+`solid`, `dashed`, `dotted`, `double`.
+
 ---
-test
+
+### 💡 Value Border
+Border memiliki 4 sisi:
+1. Top  
+2. Right  
+3. Bottom  
+4. Left  
+
+---
+
+### 🛠 Cara Menggunakan (Shorthand Border)
+
+```css
+/* Semua sisi sama */
+border: 2px solid black;
+```
+
+## 📦 Property: Padding
+Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
+Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
+
+---
+
+### 💡 Value Padding
+Padding memiliki 4 sisi:
+1. Top  
+2. Right  
+3. Bottom  
+4. Left  
+
+---
+
+### 🛠 Cara Menggunakan (Shorthand Padding)
+
+```css
+/* Semua sisi sama */
+padding: 10px;
+```
