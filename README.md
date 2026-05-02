@@ -1,6 +1,6 @@
 ## Property dan Value CSS Layouting
 
-- **Dimensi**  
+## Dimensi
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web.  
   Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.  
   Dimensi dibagi menjadi 6 yaitu:  
@@ -52,10 +52,9 @@
        Elemen dengan max-height 150px
      </div>
      ```
-- **Box Model**  
 
+## Box Model     
 **Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
-
 - **Content** → isi utama elemen (teks/gambar).
 - **Padding** → ruang antara content dan border.
 - **Border** → garis pembatas di sekitar elemen.
