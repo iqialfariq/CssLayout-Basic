@@ -58,6 +58,8 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
        Elemen dengan max-height 150px
      </div>
      ```
+     
+---
 
 ## 📦 Box Model    
 Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
@@ -80,8 +82,6 @@ Margin memiliki 4 sisi:
 3. **Bottom**  
 4. **Left**
 
----
-
 ### Shorthand Margin
 Penulisan shorthand mengikuti urutan: **top → right → bottom → left**
 
@@ -98,13 +98,12 @@ margin: 10px 20px 30px;
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
 ```
+---
 
 ## Property: Border📎
 Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
 atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
 `solid`, `dashed`, `dotted`, `double`.
-
----
 
 ### Value Border
 Border memiliki 4 sisi:
@@ -113,29 +112,24 @@ Border memiliki 4 sisi:
 3. Bottom  
 4. Left  
 
----
-
 ### Cara Menggunakan (Shorthand Border)
 
 ```css
 /* Semua sisi sama */
 border: 2px solid black;
 ```
+---
 
 ## Property: Padding📎
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
 Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
-
----
 
 ### Value Padding
 Padding memiliki 4 sisi:
 1. Top  
 2. Right  
 3. Bottom  
-4. Left  
-
----
+4. Left
 
 ### Cara Menggunakan (Shorthand Padding)
 
@@ -143,6 +137,7 @@ Padding memiliki 4 sisi:
 /* Semua sisi sama */
 padding: 10px;
 ```
+---
 
 ## 🧩 Property: Box-Sizing
 <p align="justify">
@@ -162,8 +157,6 @@ Ada 3 value utama:
 3. **inherit**  
    Elemen mewarisi nilai `box-sizing` dari parent‑nya.  
 
----
-
 ### Cara Menggunakan
 
 ```css
@@ -176,10 +169,13 @@ box-sizing: border-box;
 /* Mewarisi dari parent */
 box-sizing: inherit;
 ```
+---
 
 ## 🔄 CSS Reset
 <p align="justify">
 CSS Reset adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
+
+---
 
 ### Eric Meyer’s Reset (Klasik)📎
 ```css
@@ -234,6 +230,7 @@ table {
   border-spacing: 0;
 }
 ```
+---
 
 ## 🌊 Float
 <p align="justify">
@@ -246,8 +243,6 @@ Merujuk pada cara untuk membuat elemen “ melayang ” ke kiri atau kanan dari 
 2. **left** → elemen melayang ke kiri container.  
 3. **right** → elemen melayang ke kanan container.  
 
----
-
 ### Cara Menggunakan
 ```css
 /* Elemen melayang ke kiri */
@@ -259,6 +254,7 @@ float: right;
 /* Default, tidak melayang */
 float: none;
 ```
+---
 
 ## 🧹 Clear
 <p align="justify">
@@ -269,9 +265,7 @@ Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yan
 ### Value Clear
 1. **both** → elemen tidak boleh berada di samping elemen yang di-*float* kiri maupun kanan.  
 2. **left** → elemen tidak boleh berada di samping elemen yang di-*float* kiri.  
-3. **right** → elemen tidak boleh berada di samping elemen yang di-*float* kanan.  
-
----
+3. **right** → elemen tidak boleh berada di samping elemen yang di-*float* kanan.
 
 ### Cara Menggunakan
 ```css
@@ -295,6 +289,7 @@ clear: both;
     clear: both;
 }
 ```
+---
 
 ## 📍 Position
 <p align="justify">
@@ -317,8 +312,6 @@ Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini beke
 
 5. **sticky**  
    Kombinasi relative + fixed. Elemen mengikuti alur normal, tapi akan “menempel” ke posisi tertentu saat di-*scroll*.
-
----
 
 ### Cara Menggunakan
 ```css
@@ -344,6 +337,7 @@ right: 0;
 position: sticky;
 top: 0;
 ```
+---
 
 ## 🗂️ Z-Index
 <p align="justify">
@@ -353,9 +347,7 @@ Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan `z-i
 
 ### Value Z-Index
 1. **Nilai positif (1 sampai 900)** → elemen berada di atas elemen lain dengan nilai lebih rendah.  
-2. **Nilai negatif (-1 sampai -900)** → elemen berada di bawah elemen lain dengan nilai lebih tinggi.  
-
----
+2. **Nilai negatif (-1 sampai -900)** → elemen berada di bawah elemen lain dengan nilai lebih tinggi.
 
 ### Cara Menggunakan
 ```css
