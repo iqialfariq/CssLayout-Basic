@@ -1,13 +1,14 @@
-# 💡 Penjelasan CSS Layouting 💡
-CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang **kompleks, responsif, dan fleksibel**. 
+# 🧠 Penjelasan CSS Layouting
+<p align="justify">
+CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang **kompleks, responsif, dan fleksibel**. </p>
 
 ---
 
-## 💫 Property dan Value CSS Layouting 💫
+## 📌 Property dan Value CSS Layouting
 
-## 📌 Dimensi 📌
-  Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi,
-  serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.  
+## 📐 Dimensi
+  <p align="justify">
+  Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.</p> 
   Dimensi dibagi menjadi 6 yaitu:  
 
   1. **Width**📎  
@@ -58,7 +59,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      </div>
      ```
 
-## 📌 Box Model 📌     
+## 📦 Box Model    
 **Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Content** → isi utama elemen (teks/gambar).
 - **Padding** → ruang antara content dan border.
@@ -143,9 +144,9 @@ Padding memiliki 4 sisi:
 padding: 10px;
 ```
 
-## 📌 Property: Box-Sizing 📌
-Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`).  
-Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak.
+## 🧩 Property: Box-Sizing
+<p align="justify">
+Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak. </p>
 
 ---
 
@@ -176,9 +177,9 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 
-## 📌 CSS Reset 📌
-**CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser,  
-sehingga tampilan website menjadi konsisten di semua browser.
+## 🔄 CSS Reset
+<p align="justify">
+**CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
 
 ### Eric Meyer’s Reset (Klasik)📎
 ```css
@@ -234,10 +235,9 @@ table {
 }
 ```
 
-## 📌 Property: Float 📌
-Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya,  
-memungkinkan teks atau elemen lain mengalir di sekitarnya.  
-Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid.
+## 🌊 Float
+<p align="justify">
+Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya, memungkinkan teks atau elemen lain mengalir di sekitarnya. Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid. </p>
 
 ---
 
@@ -260,9 +260,9 @@ float: right;
 float: none;
 ```
 
-## 📌 Property: Clear 📌
-Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**.  
-Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang.
+## 🧹 Property: Clear
+<p align="justify">
+Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
 
 ---
 
@@ -296,9 +296,9 @@ clear: both;
 }
 ```
 
-## 📌 Property: Position 📌
-Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web.  
-Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport.
+## 📍 Property: Position
+<p align="justify">
+Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
 
 ---
 
@@ -345,9 +345,9 @@ position: sticky;
 top: 0;
 ```
 
-## 📌 Property: Z-Index 📌
-Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML.  
-Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain.
+## 🗂️ Property: Z-Index
+<p align="justify">
+Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
 
 ---
 
