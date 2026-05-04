@@ -3,10 +3,10 @@
 CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang **kompleks, responsif, dan fleksibel**. </p>
 
 ---
-
-## 📌 Property dan Value CSS Layouting
+# 📌 Property dan Value CSS Layouting
 
 ## 📐 Dimensi
+
   <p align="justify">
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.</p> 
   Dimensi dibagi menjadi 6 yaitu:  
@@ -60,15 +60,12 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      ```
      
 ---
-
 ## 📦 Box Model    
 Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Content** → isi utama elemen (teks/gambar).
 - **Padding** → ruang antara content dan border.
 - **Border** → garis pembatas di sekitar elemen.
 - **Margin** → ruang kosong di luar elemen, memisahkan elemen dengan elemen lain.
-
----
 
 ## Property: Margin📎
 
@@ -99,7 +96,6 @@ margin: 10px 20px 30px;
 margin: 10px 20px 30px 40px;
 ```
 ---
-
 ## Property: Border📎
 Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
 atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
@@ -119,7 +115,6 @@ Border memiliki 4 sisi:
 border: 2px solid black;
 ```
 ---
-
 ## Property: Padding📎
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
 Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
@@ -138,12 +133,9 @@ Padding memiliki 4 sisi:
 padding: 10px;
 ```
 ---
-
 ## 🧩 Property: Box-Sizing
 <p align="justify">
 Merujuk pada cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak. </p>
-
----
 
 ### Value Box-Sizing
 Ada 3 value utama:
@@ -170,12 +162,9 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 ---
-
 ## 🔄 CSS Reset
 <p align="justify">
 CSS Reset adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
-
----
 
 ### Eric Meyer’s Reset (Klasik)📎
 ```css
@@ -231,12 +220,9 @@ table {
 }
 ```
 ---
-
 ## 🌊 Float
 <p align="justify">
 Merujuk pada cara untuk membuat elemen “ melayang ” ke kiri atau kanan dari kontainernya, memungkinkan teks atau elemen lain mengalir di sekitarnya. Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid. </p>
-
----
 
 ### Value Float
 1. **none** → elemen tidak melayang, posisi default.  
@@ -255,12 +241,9 @@ float: right;
 float: none;
 ```
 ---
-
 ## 🧹 Clear
 <p align="justify">
 Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
-
----
 
 ### Value Clear
 1. **both** → elemen tidak boleh berada di samping elemen yang di-*float* kiri maupun kanan.  
@@ -290,12 +273,9 @@ clear: both;
 }
 ```
 ---
-
 ## 📍 Position
 <p align="justify">
 Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
-
----
 
 ### Value Position
 1. **static**  
@@ -338,12 +318,9 @@ position: sticky;
 top: 0;
 ```
 ---
-
 ## 🗂️ Z-Index
 <p align="justify">
 Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
-
----
 
 ### Value Z-Index
 1. **Nilai positif (1 sampai 900)** → elemen berada di atas elemen lain dengan nilai lebih rendah.  
