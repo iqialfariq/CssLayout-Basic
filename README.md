@@ -60,7 +60,7 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
      ```
 
 ## 📦 Box Model    
-**Box Model** adalah konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
+Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Content** → isi utama elemen (teks/gambar).
 - **Padding** → ruang antara content dan border.
 - **Border** → garis pembatas di sekitar elemen.
@@ -146,7 +146,7 @@ padding: 10px;
 
 ## 🧩 Property: Box-Sizing
 <p align="justify">
-Digunakan untuk menentukan cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak. </p>
+Merujuk pada cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak. </p>
 
 ---
 
@@ -179,7 +179,7 @@ box-sizing: inherit;
 
 ## 🔄 CSS Reset
 <p align="justify">
-**CSS Reset** adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
+CSS Reset adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
 
 ### Eric Meyer’s Reset (Klasik)📎
 ```css
@@ -237,7 +237,7 @@ table {
 
 ## 🌊 Float
 <p align="justify">
-Digunakan untuk membuat elemen “melayang” ke kiri atau kanan dari kontainernya, memungkinkan teks atau elemen lain mengalir di sekitarnya. Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid. </p>
+Merujuk pada cara untuk membuat elemen “ melayang ” ke kiri atau kanan dari kontainernya, memungkinkan teks atau elemen lain mengalir di sekitarnya. Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid. </p>
 
 ---
 
@@ -260,9 +260,9 @@ float: right;
 float: none;
 ```
 
-## 🧹 Property: Clear
+## 🧹 Clear
 <p align="justify">
-Digunakan untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
+Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
 
 ---
 
@@ -296,9 +296,9 @@ clear: both;
 }
 ```
 
-## 📍 Property: Position
+## 📍 Position
 <p align="justify">
-Digunakan untuk menentukan cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
+Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan `top`, `right`, `bottom`, dan `left` untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
 
 ---
 
@@ -345,9 +345,9 @@ position: sticky;
 top: 0;
 ```
 
-## 🗂️ Property: Z-Index
+## 🗂️ Z-Index
 <p align="justify">
-Digunakan untuk mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
+Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan `z-index`, kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
 
 ---
 
