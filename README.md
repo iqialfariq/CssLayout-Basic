@@ -79,8 +79,7 @@ Margin memiliki 4 sisi:
 3. **Bottom**  
 4. **Left**
 
-### Shorthand Margin
-Penulisan shorthand mengikuti urutan: **top → right → bottom → left**
+### Cara Menggunakan (Shorthand Margin)
 
 ```css
 /* Semua sisi sama */
