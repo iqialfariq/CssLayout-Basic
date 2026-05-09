@@ -113,6 +113,16 @@ Border memiliki 4 sisi:
 ```css
 /* Semua sisi sama */
 border: 2px solid black;
+
+/* Atas-bawah | Kiri-kanan */
+border: 2px solid red 4px dashed blue;
+
+/* Atas | Kiri-kanan | Bawah */
+border: 2px solid green 4px dotted orange 6px double purple;
+
+/* Atas | Kanan | Bawah | Kiri */
+border: 1px solid red 2px dashed blue 3px dotted green 4px double black;
+
 ```
 ---
 ## Property: Padding📎
@@ -131,6 +141,16 @@ Padding memiliki 4 sisi:
 ```css
 /* Semua sisi sama */
 padding: 10px;
+
+/* Atas-bawah | Kiri-kanan */
+padding: 10px 20px;
+
+/* Atas | Kiri-kanan | Bawah */
+padding: 10px 20px 30px;
+
+/* Atas | Kanan | Bawah | Kiri */
+padding: 10px 20px 30px 40px;
+
 ```
 ---
 ## 🧩 Property: Box-Sizing
