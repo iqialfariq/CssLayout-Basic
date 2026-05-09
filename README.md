@@ -69,8 +69,7 @@ Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana 
 
 ## Property: Margin📎
 
-**Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya.  
-Margin bisa bernilai positif maupun negatif (`-`).
+**Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya. Margin bisa bernilai positif maupun negatif (`-`).
 
 ### Value Margin
 Margin memiliki 4 sisi:
@@ -96,8 +95,7 @@ margin: 10px 20px 30px 40px;
 ```
 ---
 ## Property: Border📎
-Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas,  
-atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
+Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas, atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
 `solid`, `dashed`, `dotted`, `double`.
 
 ### Value Border
@@ -125,8 +123,7 @@ border: 1px solid red 2px dashed blue 3px dotted green 4px double black;
 ```
 ---
 ## Property: Padding📎
-Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
-Berbeda dengan margin, padding tidak bisa bernilai negatif (-).
+Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**. Berbeda dengan margin, padding tidak bisa bernilai negatif (-).
 
 ### Value Padding
 Padding memiliki 4 sisi:
