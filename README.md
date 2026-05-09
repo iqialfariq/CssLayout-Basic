@@ -151,7 +151,7 @@ padding: 10px 20px 30px 40px;
 ---
 ## 🧩 Box-Sizing
 <p align="justify">
-Merujuk pada cara browser menghitung ukuran total elemen ('width' dan 'height'). Properti ini mempengaruhi apakah padding dan border ikut dihitung dalam ukuran elemen atau tidak. </p>
+Merujuk pada cara browser menghitung ukuran total elemen (' width ' dan ' height '). Properti ini mempengaruhi apakah padding dan border ikut dihitung dalam ukuran elemen atau tidak. </p>
 
 ### Value Box-Sizing
 Ada 3 value utama:
@@ -336,7 +336,7 @@ top: 0;
 ---
 ## 🗂️ Z-Index
 <p align="justify">
-Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan 'z-index', kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
+Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan ' z-index ', kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
 
 ### Value Z-Index
 1. **Nilai positif (1 sampai 900)** → elemen berada di atas elemen lain dengan nilai lebih rendah.  
