@@ -1,6 +1,6 @@
 # 🧠 Penjelasan CSS Layouting
 <p align="justify">
-CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang **kompleks, responsif, dan fleksibel**. </p>
+CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang kompleks, responsif, dan fleksibel. </p>
 
 ---
 # 📌 Property dan Value CSS Layouting
@@ -126,7 +126,7 @@ border: 1px solid red 2px dashed blue 3px dotted green 4px double black;
 ---
 ## Property: Padding📎
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**.  
-Berbeda dengan margin, padding **tidak bisa bernilai negatif (-)**.
+Berbeda dengan margin, padding tidak bisa bernilai negatif (-).
 
 ### Value Padding
 Padding memiliki 4 sisi:
@@ -154,7 +154,7 @@ padding: 10px 20px 30px 40px;
 ---
 ## 🧩 Property: Box-Sizing
 <p align="justify">
-Merujuk pada cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah **padding** dan **border** ikut dihitung dalam ukuran elemen atau tidak. </p>
+Merujuk pada cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah padding dan border ikut dihitung dalam ukuran elemen atau tidak. </p>
 
 ### Value Box-Sizing
 Ada 3 value utama:
