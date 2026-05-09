@@ -152,7 +152,7 @@ padding: 10px 20px 30px 40px;
 
 ```
 ---
-## 🧩 Property: Box-Sizing
+## 🧩 Box-Sizing
 <p align="justify">
 Merujuk pada cara browser menghitung ukuran total elemen (`width` dan `height`). Properti ini mempengaruhi apakah padding dan border ikut dihitung dalam ukuran elemen atau tidak. </p>
 
