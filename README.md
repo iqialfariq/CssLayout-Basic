@@ -262,7 +262,7 @@ float: none;
 ---
 ## 🧹 Clear
 <p align="justify">
-Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan **float**. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
+Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan float. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
 
 ### Value Clear
 1. **both** → elemen tidak boleh berada di samping elemen yang di-*float* kiri maupun kanan.  
