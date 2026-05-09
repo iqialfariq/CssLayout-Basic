@@ -291,7 +291,7 @@ clear: both;
 ---
 ## 📍 Position
 <p align="justify">
-Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan 'top', 'right', 'bottom', dan 'left' untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
+Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan ' top ', ' right ', ' bottom ', dan ' left ' untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
 
 ### Value Position
 1. **static**  
