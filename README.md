@@ -62,10 +62,10 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 ---
 ## 📦 Box Model    
 Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
-- **Content** → isi utama elemen (teks/gambar).
-- **Padding** → ruang antara content dan border.
-- **Border** → garis pembatas di sekitar elemen.
 - **Margin** → ruang kosong di luar elemen, memisahkan elemen dengan elemen lain.
+- **Border** → garis pembatas di sekitar elemen.
+- **Padding** → ruang antara content dan border.
+- **Content** → isi utama elemen (teks/gambar).
 
 ## Property: Margin📎
 
