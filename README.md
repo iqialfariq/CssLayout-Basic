@@ -3,9 +3,10 @@
 CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan struktur elemen HTML pada halaman web menggunakan properti CSS agar tampil menarik dan terorganisir. Ini memisahkan konten (HTML) dari tampilan visualnya, memungkinkan pembuatan kerangka website modern yang kompleks, responsif, dan fleksibel. </p>
 
 ---
-# 📌 Property dan Value CSS Layouting
 
-## 📐 Dimensi
+## 📌 Property dan Value CSS Layouting
+
+### 📐 Dimensi
 
   <p align="justify">
   Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.</p> 
@@ -58,16 +59,18 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
        Elemen dengan max-height 150px
      </div>
      ```
-     
+       
 ---
-## 📦 Box Model    
+
+### 📦 Box Model    
+
 Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Margin** → ruang kosong di luar elemen, memisahkan elemen dengan elemen lain.
 - **Border** → garis pembatas di sekitar elemen.
 - **Padding** → ruang antara content dan border.
 - **Content** → isi utama elemen (teks/gambar).
 
-## Property: Margin📎
+### Property: Margin📎
 
 **Margin** digunakan untuk memberikan ruang kosong di luar elemen, yaitu jarak antara elemen tersebut dengan elemen lain di sekitarnya. Margin bisa bernilai positif maupun negatif (`-`).
 
@@ -94,7 +97,8 @@ margin: 10px 20px 30px;
 margin: 10px 20px 30px 40px;
 ```
 ---
-## Property: Border📎
+
+### Property: Border📎
 Digunakan untuk mempertegas batas sekeliling elemen, membuat kotak terlihat jelas, atau memberi efek dekoratif. Border memiliki beberapa gaya di antaranya:  
 `solid`, `dashed`, `dotted`, `double`.
 
@@ -119,10 +123,10 @@ border: 2px solid green 4px dotted orange 6px double purple;
 
 /* Atas | Kanan | Bawah | Kiri */
 border: 1px solid red 2px dashed blue 3px dotted green 4px double black;
-
 ```
 ---
-## Property: Padding📎
+
+### Property: Padding📎
 Digunakan untuk memberikan ruang kosong di dalam elemen, yaitu jarak antara **konten** dengan **border**. Berbeda dengan margin, padding tidak bisa bernilai negatif (-).
 
 ### Value Padding
@@ -146,10 +150,10 @@ padding: 10px 20px 30px;
 
 /* Atas | Kanan | Bawah | Kiri */
 padding: 10px 20px 30px 40px;
-
 ```
 ---
-## 🧩 Box-Sizing
+
+### 🧩 Box-Sizing
 <p align="justify">
 Merujuk pada cara browser menghitung ukuran total elemen (' width ' dan ' height '). Properti ini mempengaruhi apakah padding dan border ikut dihitung dalam ukuran elemen atau tidak. </p>
 
@@ -178,7 +182,8 @@ box-sizing: border-box;
 box-sizing: inherit;
 ```
 ---
-## 🔄 CSS Reset
+
+### 🔄 CSS Reset
 <p align="justify">
 CSS Reset adalah kumpulan aturan CSS yang digunakan untuk menghapus atau menormalkan gaya default bawaan browser, sehingga tampilan website menjadi konsisten di semua browser. </p>
 
@@ -236,7 +241,8 @@ table {
 }
 ```
 ---
-## 🌊 Float
+
+### 🌊 Float
 <p align="justify">
 Merujuk pada cara untuk membuat elemen “ melayang ” ke kiri atau kanan dari kontainernya, memungkinkan teks atau elemen lain mengalir di sekitarnya. Sering dipakai untuk layout gambar di samping teks, atau membuat kolom sederhana sebelum era Flexbox dan Grid. </p>
 
@@ -257,7 +263,8 @@ float: right;
 float: none;
 ```
 ---
-## 🧹 Clear
+
+### 🧹 Clear
 <p align="justify">
 Merujuk pada cara untuk mengatur apakah elemen harus menghindari elemen lain yang menggunakan float. Ini penting untuk menjaga alur layout agar tidak tumpang tindih atau berantakan setelah elemen melayang. </p>
 
@@ -289,7 +296,8 @@ clear: both;
 }
 ```
 ---
-## 📍 Position
+
+### 📍 Position
 <p align="justify">
 Merujuk pada cara sebuah elemen ditempatkan dalam halaman web. Properti ini bekerja bersama dengan ' top ', ' right ', ' bottom ', dan ' left ' untuk mengatur posisi elemen relatif terhadap kontainer atau viewport. </p>
 
@@ -334,7 +342,8 @@ position: sticky;
 top: 0;
 ```
 ---
-## 🗂️ Z-Index
+
+### 🗂️ Z-Index
 <p align="justify">
 Merujuk pada cara mengatur tumpukan atau lapisan sebuah elemen HTML. Dengan ' z-index ', kita bisa menentukan apakah elemen berada di paling depan atau paling belakang dibanding elemen lain. </p>
 
