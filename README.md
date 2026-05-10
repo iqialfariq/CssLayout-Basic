@@ -96,6 +96,7 @@ margin: 10px 20px 30px;
 /* Atas | Kanan | Bawah | Kiri */
 margin: 10px 20px 30px 40px;
 ```
+
 ---
 
 ### Property: Border📎
@@ -124,6 +125,7 @@ border: 2px solid green 4px dotted orange 6px double purple;
 /* Atas | Kanan | Bawah | Kiri */
 border: 1px solid red 2px dashed blue 3px dotted green 4px double black;
 ```
+
 ---
 
 ### Property: Padding📎
@@ -151,6 +153,7 @@ padding: 10px 20px 30px;
 /* Atas | Kanan | Bawah | Kiri */
 padding: 10px 20px 30px 40px;
 ```
+
 ---
 
 ### 🧩 Box-Sizing
@@ -181,6 +184,7 @@ box-sizing: border-box;
 /* Mewarisi dari parent */
 box-sizing: inherit;
 ```
+
 ---
 
 ### 🔄 CSS Reset
@@ -240,6 +244,7 @@ table {
   border-spacing: 0;
 }
 ```
+
 ---
 
 ### 🌊 Float
@@ -262,6 +267,7 @@ float: right;
 /* Default, tidak melayang */
 float: none;
 ```
+
 ---
 
 ### 🧹 Clear
@@ -295,6 +301,7 @@ clear: both;
     clear: both;
 }
 ```
+
 ---
 
 ### 📍 Position
@@ -341,6 +348,7 @@ right: 0;
 position: sticky;
 top: 0;
 ```
+
 ---
 
 ### 🗂️ Z-Index
