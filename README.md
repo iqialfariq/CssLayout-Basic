@@ -13,23 +13,12 @@ untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia
 atau bahkan tidak ditampilkan sama sekali.</p> 
 Dimensi dibagi menjadi 6 yaitu:
 
-1. **None**📎
-   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
-     
-2. **Inline**📎
-   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-       
-3. **Inline-Block**📎
-   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-
-4. **Block**📎
-   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-
-5. **Flex**📎
-   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-
-6. **Grid**📎
-    Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
+1. **None** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
+2. **Inline** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+3. **Inline-Block** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+4. **Block** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+5. **Flex** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+6. **Grid** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
 
 ---
 
