@@ -81,7 +81,7 @@ Dimensi dibagi menjadi 6 yaitu:
 
 ### 📦 Box Model    
 
-Box Model merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
+Merujuk pada konsep dasar dalam web design yang menjelaskan bagaimana setiap elemen HTML diperlakukan sebagai sebuah kotak. Kotak ini terdiri dari:
 - **Margin** → ruang kosong di luar elemen, memisahkan elemen dengan elemen lain.
 - **Border** → garis pembatas di sekitar elemen.
 - **Padding** → ruang antara content dan border.
