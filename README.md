@@ -11,53 +11,25 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 <p align="justify">
 untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia menentukan apakah elemen muncul sebagai blok penuh, inline, container fleksibel, grid,
 atau bahkan tidak ditampilkan sama sekali.</p> 
-Dimensi dibagi menjadi 6 yaitu:  
+Dimensi dibagi menjadi 6 yaitu:
 
-  1. **None**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <p style="display: none;">Teks ini tidak tampil</p>
-     ```
-
-  2. **Inline**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <span style="display: inline; background: lightblue;">Inline 1</span>
-     ```
+1. **None**📎
+   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
+     
+2. **Inline**📎
+   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
        
-   3. **Inline-Block**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <div style="display: inline-block; width: 100px; height: 50px; background: pink;">
-            Inline-block 1
-          </div>
-     ```
+3. **Inline-Block**📎
+   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
 
-   5. **Block**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <span style="display: block; background: yellow;">Ini jadi block walau span</span>
-     ```
+4. **Block**📎
+   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
 
-   7. **Flex**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <div style="display: flex; gap: 10px; background: lightgray;">
-            <div style="background: red; width: 50px; height: 50px;"></div>
-            <div style="background: blue; width: 50px; height: 50px;"></div>
-            <div style="background: green; width: 50px; height: 50px;"></div>
-          </div>
-     ```
+5. **Flex**📎
+   Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
 
-   9. **Grid**📎  
-     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
-     ```html
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; background: lightgray;">
-            <div style="background: red; height: 50px;"></div>
-            <div style="background: blue; height: 50px;"></div>
-            <div style="background: green; height: 50px;"></div>
-          </div>
-     ```
+6. **Grid**📎
+    Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
 
 ---
 
