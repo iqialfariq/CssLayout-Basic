@@ -6,6 +6,59 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 
 ## 📌 Property dan Value CSS Layouting
 
+### 🖥️ Display
+
+<p align="justify">
+untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia menentukan apakah elemen muncul sebagai blok penuh, inline, container fleksibel, grid,
+atau bahkan tidak ditampilkan sama sekali.</p> 
+Dimensi dibagi menjadi 6 yaitu:  
+
+  1. **None**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <p style="display: none;">Teks ini tidak tampil</p>
+     ```
+
+  2. **Inline**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <span style="display: inline; background: lightblue;">Inline 1</span>
+     ```
+       
+   3. **Inline-Block**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <div style="display: inline-block; width: 100px; height: 50px; background: pink;">
+          Inline-block 1
+          </div>
+     ```
+
+   5. **Block**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <span style="display: block; background: yellow;">Ini jadi block walau span</span>
+     ```
+   7. **Flex**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <div style="display: flex; gap: 10px; background: lightgray;">
+            <div style="background: red; width: 50px; height: 50px;"></div>
+            <div style="background: blue; width: 50px; height: 50px;"></div>
+            <div style="background: green; width: 50px; height: 50px;"></div>
+          </div>
+     ```
+   9. **Grid**📎  
+     Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
+     ```html
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; background: lightgray;">
+            <div style="background: red; height: 50px;"></div>
+            <div style="background: blue; height: 50px;"></div>
+            <div style="background: green; height: 50px;"></div>
+          </div>
+     ```
+
+---
+
 ### 📐 Dimensi
 
   <p align="justify">
@@ -15,49 +68,49 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
   1. **Width**📎  
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
      ```html
-     <div style="width: 200px; background: lightblue;">
-       Elemen dengan lebar 200px
-     </div>
+          <div style="width: 200px; background: lightblue;">
+            Elemen dengan lebar 200px
+          </div>
      ```
 
   2. **Height**📎  
      Menentukan tinggi elemen. Sama seperti width, bisa absolut atau relatif.  
      ```html
-     <div style="height: 100px; background: lightgreen;">
-       Elemen dengan tinggi 100px
-     </div>
+          <div style="height: 100px; background: lightgreen;">
+            Elemen dengan tinggi 100px
+          </div>
      ```
 
   3. **Min-Width**📎  
      Menentukan lebar minimum elemen agar tidak mengecil terlalu kecil.  
      ```html
-     <div style="min-width: 150px; background: pink;">
-       Elemen dengan min-width 150px
-     </div>
+          <div style="min-width: 150px; background: pink;">
+            Elemen dengan min-width 150px
+          </div>
      ```
 
   4. **Max-Width**📎  
      Menentukan lebar maksimum elemen agar tidak melebar berlebihan.  
      ```html
-     <div style="max-width: 300px; background: orange;">
-       Elemen dengan max-width 300px
-     </div>
+          <div style="max-width: 300px; background: orange;">
+            Elemen dengan max-width 300px
+          </div>
      ```
 
   5. **Min-Height**📎  
      Menentukan tinggi minimum elemen.  
      ```html
-     <div style="min-height: 80px; background: violet;">
-       Elemen dengan min-height 80px
-     </div>
+          <div style="min-height: 80px; background: violet;">
+            Elemen dengan min-height 80px
+          </div>
      ```
 
   6. **Max-Height**📎  
      Menentukan tinggi maksimum elemen.  
      ```html
-     <div style="max-height: 150px; background: yellow;">
-       Elemen dengan max-height 150px
-     </div>
+          <div style="max-height: 150px; background: yellow;">
+            Elemen dengan max-height 150px
+          </div>
      ```
        
 ---
