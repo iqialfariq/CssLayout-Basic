@@ -38,6 +38,7 @@ Dimensi dibagi menjadi 6 yaitu:
      ```html
           <span style="display: block; background: yellow;">Ini jadi block walau span</span>
      ```
+
    7. **Flex**📎  
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
      ```html
@@ -47,6 +48,7 @@ Dimensi dibagi menjadi 6 yaitu:
             <div style="background: green; width: 50px; height: 50px;"></div>
           </div>
      ```
+
    9. **Grid**📎  
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
      ```html
