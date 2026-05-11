@@ -29,7 +29,7 @@ Dimensi dibagi menjadi 6 yaitu:
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
      ```html
           <div style="display: inline-block; width: 100px; height: 50px; background: pink;">
-          Inline-block 1
+            Inline-block 1
           </div>
      ```
 
