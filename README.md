@@ -10,7 +10,8 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 
 <p align="justify">
 untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia menentukan apakah elemen muncul sebagai blok penuh, inline, container fleksibel, grid,
-atau bahkan tidak ditampilkan sama sekali.</p> 
+atau bahkan tidak ditampilkan sama sekali.</p>
+
 Dimensi dibagi menjadi 6 yaitu:
 
 1. **None** → Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.
