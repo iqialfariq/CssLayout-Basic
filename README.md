@@ -9,8 +9,9 @@ CSS Layouting (tata letak CSS) adalah teknik mengatur posisi, ukuran, dan strukt
 ### 🖥️ Display
 
 <p align="justify">
-untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia menentukan apakah elemen muncul sebagai blok penuh, inline, container fleksibel, grid,
-atau bahkan tidak ditampilkan sama sekali.</p>
+Untuk mengatur cara sebuah elemen HTML ditampilkan dalam layout halaman web. Dia menentukan apakah elemen muncul sebagai blok penuh, inline, container
+fleksibel, grid, atau bahkan tidak ditampilkan sama sekali.
+</p>
 
 Dimensi dibagi menjadi 6 yaitu:
 
@@ -25,9 +26,11 @@ Dimensi dibagi menjadi 6 yaitu:
 
 ### 📐 Dimensi
 
-  <p align="justify">
-  Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari sebuah elemen sehingga layout lebih terkontrol dan responsif.</p> 
-  Dimensi dibagi menjadi 6 yaitu:  
+<p align="justify">
+Merujuk pada properti yang digunakan untuk mengatur ukuran elemen di halaman web. Dimensi menentukan lebar, tinggi, serta batas maksimal/minimal dari
+sebuah elemen sehingga layout lebih terkontrol dan responsif.
+</p> 
+Dimensi dibagi menjadi 6 yaitu:  
 
   1. **Width**📎  
      Menentukan lebar elemen. Bisa berupa nilai absolut atau relatif.  
